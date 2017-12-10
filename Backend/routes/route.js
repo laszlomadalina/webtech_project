@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-let routeController = require('../controllers/route')
+let routeController = require('../Controllers/route')
 
 router.get('/', routeController.findAll);
 router.post('/', routeController.create);
